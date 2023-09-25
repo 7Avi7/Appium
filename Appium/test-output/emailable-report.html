@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test 1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,717</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test 2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,323</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test 3</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,456</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">91,496</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">avi.e_Commerce_tc_1</td><td><a href="#m0">FillForm</a></td><td rowspan="1">1695222624320</td><td rowspan="1">24378</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test 2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">avi.e_Commerce_tc_2</td><td><a href="#m1">FillForm</a></td><td rowspan="1">1695222653842</td><td rowspan="1">24421</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test 3 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">avi.e_Commerce_tc_3</td><td><a href="#m2">FillForm</a></td><td rowspan="1">1695222682838</td><td rowspan="1">24417</td></tr></tbody>
+</table>
+<h2>Test 1</h2><h3 id="m0">avi.e_Commerce_tc_1#FillForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test 2</h2><h3 id="m1">avi.e_Commerce_tc_2#FillForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test 3</h2><h3 id="m2">avi.e_Commerce_tc_3#FillForm</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome &apos;116.0.0&apos;. You could also try to enable automated chromedrivers download as a possible workaround.
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fef78f9d-52d1-48f5-803e-d2eec50c9c9f, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\Java Selenium\Appium\src..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\Java Selenium\Appium\src..., automationName: UIAutomator2, deviceName: POCO F3, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Xiaomi, appium:deviceModel: M2012K11AG, appium:deviceName: a253319a, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: a253319a, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 80, appium:takesScreenshot: true, appium:viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fef78f9d-52d1-48f5-803e-d2eec50c9c9f
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:48)
+	at avi.e_Commerce_tc_3.FillForm(e_Commerce_tc_3.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome &apos;116.0.0&apos;. You could also try to enable automated chromedrivers download as a possible workaround.
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fef78f9d-52d1-48f5-803e-d2eec50c9c9f, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\Java Selenium\Appium\src..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\Java Selenium\Appium\src..., automationName: UIAutomator2, deviceName: POCO F3, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Xiaomi, appium:deviceModel: M2012K11AG, appium:deviceName: a253319a, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: a253319a, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 80, appium:takesScreenshot: true, appium:viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fef78f9d-52d1-48f5-803e-d2eec50c9c9f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:308)
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:45)
+	... 29 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

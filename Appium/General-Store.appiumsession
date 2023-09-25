@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "D:\\\\Java Selenium\\\\Appium\\\\src\\\\test\\\\java\\\\resources\\\\General-Store.apk"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "POCO F3"
+    },
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UIAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "127.0.0.1",
+      "ssl": false,
+      "path": "",
+      "port": "4723"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {
+      "allowUnauthorized": false
+    },
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
